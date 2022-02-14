@@ -6,4 +6,4 @@
 FROM openjdk:9
 COPY target/my-app-1.0-SNAPSHOT.jar /usr/app/my-app-1.0-SNAPSHOT.jar 
 EXPOSE 8089
-ENTRYPOINT ["java","-jar","/usr/app/my-app-1.0-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/usr/app/my-app-1.0-SNAPSHOT.jar","--httpPort=8089"]
