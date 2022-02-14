@@ -1,4 +1,4 @@
-<html>
+p<html>
   
     <head>
         <style> 
@@ -18,7 +18,7 @@
     </head>
     
         <div style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
-         <img src='vishnu_pic.jpg' style='width:60%;height:100%' alt='[]' />
+         <img src='devops.jpg' style='width:60%;height:100%' alt='[]' />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <body>
       <div id="header">
