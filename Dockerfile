@@ -4,6 +4,6 @@
 #RUN mvn -f /usr/src/app/pom.xml clean package
 
 FROM openjdk:9
-COPY target/my-app-1.0-SNAPSHOT.jar /usr/app/my-app-1.0-SNAPSHOT.jar 
+COPY target/MavenGeneratorWeb.war /usr/app/MavenGeneratorWeb.war 
 EXPOSE 8089
-ENTRYPOINT ["java","-jar","/usr/app/my-app-1.0-SNAPSHOT.jar","--httpPort=8089"]
+ENTRYPOINT ["java","-jar","/usr/app/MavenGeneratorWeb.war"]
